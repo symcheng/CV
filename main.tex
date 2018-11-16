@@ -17,12 +17,10 @@
 % character encoding
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
-
 % adjust the page margins
 \usepackage[scale=0.75]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
-
 % personal data
 \name{Song}{Cheng}
 \title{Ph.D candidate}                               % optional, remove / comment the line if not wanted
@@ -53,17 +51,13 @@
 \cventry{2014,9-present}{Ph.D in theoretical physics}{Institute of Physics, Chinese Academy of Sciences}{Beijing, China}{}{Supervisors: Prof. Tao Xiang and Prof. Lei Wang}
 \cventry{2010.9--2014.6}{B.S. in Physics}{Sichuan University}{Chengdu, China}{}{}  % arguments 3 to 6 can be left empty
 
-\section{Awards}
-\cvitem{ 2017}{Director Scholarship of the Institute of Physics, Chinese Academy of Sciences.}
-\cvitem{2012, 2013 and 2014}{Top Talents Scholarship on Fundamental Disciplines of the Ministry of Education of The P. R. China (three times).}
-
 \section{Skills}
 \cvlistitem{DMRG and Tensor Networks numerical algorithms}
-\cvlistitem{Machine Learning models (graph models, neural nets. etc.) and platforms (tensorflow/pytorch)}
+\cvlistitem{Machine Learning models (graphical models, neural nets. etc.) and frameworks (tensorflow/pytorch)}
 \cvlistitem{Python/Matlab language}
 
 \section{Interests}
-\cvlistitem{Currently, I'm interest in both the traditional tensor network algorithms(on manybody physics) and its application on some machine learning problems.} %I care about the information/entanglement/entropy in both tensor network models and traditional machine learning models. }
+\cvlistitem{Currently, I'm interest in both the traditional tensor network algorithms(on many body physics) and its application on machine learning problems.} %I care about the information/entanglement/entropy in both tensor network models and traditional machine learning models. }
 \cvlistitem{Meanwhile, I also have a strong curiosity on the quantum information/decoding field and also feel happy to do something related.}
 %\cvitem{ Tensor Networks}{Description}
 %\cvitem{Machine learning}{Description}
@@ -72,38 +66,30 @@
 
 \section{Experience}
 \cvitem{2010--2014}{At the undergraduate level, I participated in the Ministry of Education's top talents program. This program selects about 5\%-10\% of students from the science colleges of 21 top universities in China each year to encourage them to engage in fundamental scientific research. I once ,as the captain of the Sichuan University Team, participated in the China Undergraduate Physics Tournament and won a second prize. In this level, I was well trained in a very classic theoretical physics style.}
-\cvitem{2014--2016}{After graduating, I joined the group of prof. Tao Xiang. In the first two years, with the help of prof. Zhiyuan Xie, I was focus on optimizing the accuracy of the tensor RG algorithm on the antiferromagnetic J1-J2 model. I have tried algorithms such as TEBD, TRG, SRG, HOTRG, HOSRG, etc. At the same time, I also cooperate with prof. Xie and prof. Xiang on  studying and improving the TNR and loop-TNR algorithm. During this time, I received a very specific and professional training on the tensor network numerical algorithm.}
-\cvitem{2017}{At the beginning of my third year, as we started to noticed the connection between tensor network and machine learning, I started to cooperate with prof. Lei Wang and transferred my research to machine learning. Our first result is theoretically proved the exact mapping between RBM and MPS [3] \newline 
-Our second result is to examine the feasibility of applying tensor network to machine learning problems from the perspective of information theory, and also proposing the quantum extension of Boltzmann machines: Born machine.[2] \newline
-Cooperating with Wang is a pleasant experience. During this time I learned a lot, including Monte Carlo, machine learning algorithms, data structures and algorithms, scientific computing programming paradigm, etc. }
-\cvitem{2018--present}{Since 2018, I started working with prof. Lei Wang and prof. Pan Zhang to find a more powerful generative model than the previous MPS. Our choice is tree tensor network. Now we have obtained the current best result of the tensor network generative modeling. The article is in preparation.[1] Pan Zhang is as efficient as lei wang. during this time, I learned many statistical inference, spin glass, GPU parallelism and experience of programming from him.}
+\cvitem{2014--2016}{After graduating, I joined the group of Prof. Tao Xiang. In the first two years, with the help of Prof. Zhiyuan Xie, I was focus on optimizing the accuracy of the tensor RG algorithm on the antiferromagnetic J1-J2 model. I have tried algorithms such as TEBD, TRG, SRG, HOTRG, HOSRG, etc. At the same time, I also cooperate with Prof. Xie and Prof. Xiang on  studying and improving the TNR and loop-TNR algorithm. During this time, I received a very specific and professional training on the tensor network numerical algorithm.}
+\cvitem{2017}{At the beginning of my third year, as we started to noticed the connection between tensor network and machine learning, I started to cooperate with Prof. Lei Wang and transferred my research to machine learning. Our first result is theoretically proved the exact mapping between RBM and MPS[3]. \newline 
+Our second result is to examine the feasibility of applying tensor network to machine learning problems from the perspective of information theory, and also proposing the quantum extension of Boltzmann machines: Born machinex[2]. \newline
+During this time I learned about Monte Carlo, machine learning algorithms, data structures and algorithms, scientific computing programming paradigm, etc. }
+\cvitem{2018--present}{Since 2018, I started working with Prof. Lei Wang and Prof. Pan Zhang to find a more powerful generative model than the previous MPS. Our choice is tree tensor network. Now we have obtained the current best result of the tensor network generative modeling. The article is in preparation[1]. During this time, I learned many statistical inference, spin glass, GPU parallelism and experience of programming from Pan.}
 
-
-
-%\section{Extra 1}
-%\cvlistitem{Item 1}
-%\cvlistitem{Item 2}
-%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
-
-%\section{Extra 2}
-%\cvlistdoubleitem{Item 1}{Item 4}
-%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
-%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+\section{Awards}
+\cvitem{ 2017}{Director Scholarship of the Institute of Physics, Chinese Academy of Sciences.}
+\cvitem{2012, 2013 and 2014}{Top Talents Scholarship on Fundamental Disciplines of the Ministry of Education of The P. R. China (three times).}
 
 \section{Publications}
 \cventry{[1]}{Tree Tensor Networks for Generative Modeling}{}{}{}{(In preparation)}
 
-\cventry{[2]}{Information perspective to probabilistic modeling: Boltzmann machines versus born machines}{}{}{}{\textbf{S Cheng}, J Chen, L Wang, Entropy 2018, 20, 583.}
-\cventry{[3]}{Equivalence of restricted Boltzmann machines and tensor network states}{}{}{}{J Chen, \textbf{S Cheng}, H Xie, L Wang, T Xiang, Physical Review B, 2018.}
+\cventry{[2]}{Information perspective to probabilistic modeling: Boltzmann machines versus born machines}{}{}{}{\textbf{S. Cheng}, J. Chen, L. Wang, Entropy 2018, 20, 583.}
+\cventry{[3]}{Equivalence of restricted Boltzmann machines and tensor network states}{}{}{}{J. Chen, \textbf{S. Cheng}, H. Xie, L. Wang, T. Xiang, Physical Review B, 2018.}
 \cventry{[4]}{Phase Transition of the q-State Clock Model: Duality and Tensor Renormalization}{}{}{}{Chen, J., Liao, H.-J., Xie, H.-D., Han, X.-J., Huang, R.-Z., \textbf{Cheng, S.}, et al.\ 2017, Chinese Physics Letters, 34, 050503.}
-\cventry{[5]}{Quantum entanglement: from quantum states of matter to deep learning}{}{}{}{\textbf{S Cheng}, J Chen, L Wang, Physics, 2017}
+\cventry{[5]}{Quantum entanglement: from quantum states of matter to deep learning}{}{}{}{\textbf{S. Cheng}, J. Chen, L. Wang, Physics, 2017. \newline *Physics is a popular article in Chinese language} 
 \section{Conferences}
 \cvitem{1}{\textbf{Born machine: generative modeling using tensor network states.} \newline
 The 8th Workshop on Quantum Many-Body Computation, Huangzhou, 2018, Invited talk.}
 \cvitem{2}{\textbf{A brief review on the application of tensor networks to the machine Learning problem.} \newline
 Workshop on the Statistical Physics and Machine Learning, Anqing, 2018, Invited talk.}
 \cvitem{3}{\textbf{Pixel Correlation and Mutual Information: Implication to Unsupervised Learning.} \newline
- Fall Meeting of the China Physics Society, Chengdu, 2017, Branch Invited talk.} 
+ Fall Meeting of the China Physics Society, Chengdu, 2017, Invited talk.} 
 %\begin{cvcolumns}
 %  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
 %  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
